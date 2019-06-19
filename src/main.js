@@ -3,8 +3,14 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
+//import hello-world from './HelloWorld.vue'
+import Vuelidate from 'vuelidate'
+Vue.use(Vuelidate)
 
 Vue.config.productionTip = false
+
+// Vue.use(window.vuelidate.default)
+
 
 new Vue({
   router,
